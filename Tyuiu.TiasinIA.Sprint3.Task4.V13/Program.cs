@@ -1,5 +1,5 @@
-﻿using Tyuiu.TiasinIA.Sprint3.Task3.V12.Lib;
-namespace Tyuiu.TiasinIA.Sprint3.Task3.V12
+﻿using Tyuiu.TiasinIA.Sprint3.Task4.V13.Lib;
+namespace Tyuiu.TiasinIA.Sprint3.Task4.V13
 {
     internal class Program
     {
@@ -12,29 +12,30 @@ namespace Tyuiu.TiasinIA.Sprint3.Task3.V12
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #3                                                               *");
             Console.WriteLine("* Тема: Оператор цикла for                                                *");
-            Console.WriteLine("* Задание #3                                                              *");
-            Console.WriteLine("* Вариант #12                                                             *");
+            Console.WriteLine("* Задание #4                                                              *");
+            Console.WriteLine("* Вариант #13                                                             *");
             Console.WriteLine("* Выполнил: Тясин Илья Александрович | АСОиУб-24-1                        *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
-            Console.WriteLine("* Используя цикл foreach подсчитать максимальное количество букв k,       *");
-            Console.WriteLine("* находящихся на соседних позициях в строке: bkkrk ckkkcs ksr             *");
-            Console.WriteLine("*                                                                         *");
+            Console.WriteLine("* На отрезке, где x принимает значения от -5 до 5, вычислить значение     *");
+            Console.WriteLine("* функции y=sin(x)/cos(x)\r\n\r\nПри х = 0 прервать цикл.                 *");
+            Console.WriteLine("* Полученные значения перемножать.                                        *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            string value = "bkkrk ckkkcs ksr";
-            char item = 'k';
+            int startValue = -5;
+            int stopValue = 5;
 
-
+            Console.WriteLine("Старт шага = " + startValue);
+            Console.WriteLine("Конец шага = " + stopValue);
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine(ds.GetMaxCharCount(value, item));
-            Console.ReadKey();
+            Console.WriteLine("Сумма ряда = " + ds.Calculate(startValue, stopValue));
+            Console.ReadKey(); ;
         }
     }
 }
