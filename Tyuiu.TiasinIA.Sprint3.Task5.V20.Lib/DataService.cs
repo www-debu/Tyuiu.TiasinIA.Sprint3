@@ -11,7 +11,7 @@ namespace Tyuiu.TiasinIA.Sprint3.Task5.V20.Lib
             {
                 for (j = startValue2; j <= stopValue2; j++)
                 {
-                    sumSeries = sumSeries + Math.Pow(x / Math.Sin(x), startValue2);
+                    sumSeries = sumSeries + (Math.Pow(x / Math.Sin(5), j));
                 }
             }
             return Math.Round(sumSeries, 3);
