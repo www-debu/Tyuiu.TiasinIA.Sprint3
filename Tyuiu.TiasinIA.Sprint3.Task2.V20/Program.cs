@@ -1,5 +1,5 @@
-﻿using Tyuiu.TiasinIA.Sprint3.Task1.V15.Lib;
-namespace Tyuiu.TiasinIA.Sprint3.Task1.V15
+﻿using Tyuiu.TiasinIA.Sprint3.Task2.V20.Lib;
+namespace Tyuiu.TiasinIA.Sprint3.Task2.V20
 {
     internal class Program
     {
@@ -12,21 +12,21 @@ namespace Tyuiu.TiasinIA.Sprint3.Task1.V15
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #3                                                               *");
             Console.WriteLine("* Тема: Оператор цикла for                                                *");
-            Console.WriteLine("* Задание #1                                                              *");
-            Console.WriteLine("* Вариант #15                                                             *");
+            Console.WriteLine("* Задание #2                                                              *");
+            Console.WriteLine("* Вариант #20                                                             *");
             Console.WriteLine("* Выполнил: Тясин Илья Александрович | АСОиУб-24-1                        *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
-            Console.WriteLine("* Написать программу используя цикл while, которая вычисляет произведение *");
-            Console.WriteLine("* ряда по формуле, при x = 2                                              *");
+            Console.WriteLine("* Написать программу используя цикл do...while, которая вычисляет         *");
+            Console.WriteLine("* произведение ряда по формуле, при x = 1                                 *");
             Console.WriteLine("*                                                                         *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            int value = 2;
+            int value = 1;
             int startValue = 1;
-            int stopValue = 5;
+            int stopValue = 6;
 
 
 
