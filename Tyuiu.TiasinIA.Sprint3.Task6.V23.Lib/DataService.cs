@@ -8,7 +8,7 @@ namespace Tyuiu.TiasinIA.Sprint3.Task6.V23.Lib
             int res = 0;
             for (int x = startValue; x <= stopValue; x++)
             {
-                for (int d = 1; d <= 11; d++)
+                for (int d = 1; d < 11; d++)
                 {
                     if (x % d == 0)
                     {
