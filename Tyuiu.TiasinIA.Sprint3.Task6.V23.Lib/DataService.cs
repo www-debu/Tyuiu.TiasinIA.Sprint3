@@ -12,7 +12,7 @@ namespace Tyuiu.TiasinIA.Sprint3.Task6.V23.Lib
                 {
                     if (x % d == 0)
                     {
-                        res += d;
+                        res = res + 1;
                     }
                 }
             }
